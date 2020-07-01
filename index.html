@@ -21,9 +21,8 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a class="nav-link" href="#">Specs</a></li>
-                <li><a class="nav-link" href="#">Products</a></li>
-                <li><a class="nav-link" href="#">Contacts</a></li>
+                <li><a class="nav-link" href="#comparison-section">Specs</a></li>
+                <li><a class="nav-link" href="#release-section">Release Date</a></li>
             </ul>
         </nav>
         <div class="cart">
@@ -55,10 +54,10 @@
 
     </main>
 
-    <div style="margin-top: 150px;">
+    <div class="specs" id="comparison-section">
         <h1 class="comparison-title">Specs</h1>
         <h4 class="comparison-subtitle">Soft-Response compared to other leading balls on Tour</h4>
-        <table class="table table-striped table-hover">
+        <table class="table table-striped table-hover " style="margin-bottom: 100px;">
             <thead>
                 <tr>
                     <th scope="col">Ball / Brand</th>
@@ -88,8 +87,9 @@
                 </tr>
             </tbody>
         </table>
-        <div style="background-color: red; opacity: 0.05;">
-            <h1 style="text-align: center;">Release in...</h1>
+        <div class="counter-section">
+            <h1 class="release-title" id="release-section">Release</h1>
+            <h4 class="release-subtitle">Coming to stores December 25th, 2020</h4>
             <div id="clockdiv">
                 <div class="time-cell"><span class="days"></span>
                     <div class="smalltext">Days</div>
@@ -106,6 +106,18 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://www.google.com/"> GolfUnlimited.com</a>
+        </div>
+
+    </footer>
+    <!-- Footer -->
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
